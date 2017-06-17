@@ -20,13 +20,13 @@
     <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/player_list"
-        android:name="com.example.basketball.controller.activities.master_detail.PlayerListFragment"
+        android:name="com.kvn.atleta.controller.activities.master_detail.AtletaListFragment"
         android:layout_width="@dimen/item_width"
         android:layout_height="match_parent"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         app:layoutManager="LinearLayoutManager"
-        tools:context="com.kim.atleta.com.kim.atleta.controller.activities.master_detail.PlayerListActivity"
+        tools:context="com.kvn.atleta.controller.activities.master_detail.AtletaListActivity"
         tools:listitem="@layout/atleta_list_content" />
 
     <FrameLayout
